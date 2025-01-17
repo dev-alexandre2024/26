@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto-login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href-="media-query.css">
 </head>
 <body>
     <section id="login">
@@ -12,13 +13,21 @@
             <img src="logo para o projeto.jpg" alt="">
         </div>
         <div id="formulario">
+            <h1>Login</h1>
+            <p>Olá,Seja bem vindo(a) novamente faça login para continuar.</p>
 
             <form action="valida.php" method="post">
-               <p>Olá,Seja bem vindo(a) novamente faça login para continuar.</p>
-              
+                <p>E-mail:</p>
+                <input type="email" placeholder="digite seu email aqui" class="inp"></input>
+                <p>Senha:</p>
+               <input type="password" placeholder="digite sua senha" class="inp"></input>
+               <p>
+                   <input type="submit" value="cadastrar-se" >
+                   <input type="reset" value="Retornar">
+               </p>
             </form>
-        </div>
 
+             <p></p>
     </section>
 </body>
 </html>

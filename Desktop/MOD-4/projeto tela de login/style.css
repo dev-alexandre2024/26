@@ -7,7 +7,7 @@
 
 body,
 html {
-    background-color: #5f2c82;
+    background-image:linear-gradient(to bottom,#5f2c82,lightgreen) ;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -43,4 +43,14 @@ section#login>div#imagem {
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+.inp{
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 20px;
+    
+}
+input{
+    margin: 10px;
+    align-items: center;
 }
